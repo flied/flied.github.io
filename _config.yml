@@ -7,11 +7,12 @@ url:            "https://chesterhow.github.io"
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
+copyright:    'hutusi.com'
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         hutusi
+  url:          https://hutusi.com
+  email:        huziyong@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -28,6 +29,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  # - jekyll/tagging
+  # - jekyll-sitemap
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
@@ -37,5 +40,25 @@ paginate:       5
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
+# Tagging
+# tag_page_dir:         tag
+# tag_page_layout:      tag_page
+# tag_permalink_style:  pretty
+
+# tag_page_data:
+#   sitemap: false
+
+# can be ['disqus', 'gitalk']
+comments_engine: na
+
 # Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+disqus: jekyll-tale
+
+gitalk:
+  client_id: ''
+  client_secret: ''
+  repo: ''
+  owner: ''
+  admin: 
+    - ''
+  
