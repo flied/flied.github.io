@@ -37,6 +37,11 @@ plugins:
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
+# Navigators
+nav_page_names: ['about.md']
+# can be ['feeds.pub', 'xml', 'na']
+nav_feed: 'feeds.pub'
+
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 

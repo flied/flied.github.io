@@ -58,6 +58,11 @@ footer,
     &:focus {
       opacity: 1;
     }
+
+    .center {
+      height: 15px;
+      position: relative;
+    }
   }
 
   a {
