@@ -17,7 +17,12 @@
   {% feed_meta %}
 
   <!-- Google Analytics-->
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
+  {% if site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %}
+
+  <!-- Baidu Statistic-->
+  {% if site.baidu_statistic %}
+    {% include baidu_statistic.html %}
   {% endif %}
 </head>

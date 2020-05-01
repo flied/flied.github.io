@@ -5,7 +5,10 @@ baseurl:        "/tale"
 url:            "https://chesterhow.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-30399492-1
+
+# Baidu Statistic
+baidu_statistic: 6e5f92006f4eed18f39b7cb30f420d8a
 
 copyright:    'hutusi.com'
 # Author
