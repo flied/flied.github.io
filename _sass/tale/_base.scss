@@ -64,3 +64,13 @@ img {
 td {
   vertical-align: top;
 }
+
+@media (max-width: 600px) {
+  .hidden-mobile {
+    visibility: hidden;
+    display: none;
+    clear: both;
+    float: left;
+    width: 100%;
+  }
+}
