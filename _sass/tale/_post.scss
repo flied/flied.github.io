@@ -26,6 +26,13 @@
     text-align: center;
   }
 
+  &-subtitle {
+    color: $default-shade;
+    font-family: $serif-secondary;
+    font-size: 18px;
+    text-align: center;
+  }
+
   &-line {
     border-top: 0.4rem solid $default-shade;
     display: block;
