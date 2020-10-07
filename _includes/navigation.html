@@ -5,19 +5,19 @@
     </a>
 
     <ul>
-      {% for page_name in site.nav_page_names %}
-        {% for page in site.pages %}
+      {%- for page_name in site.nav_page_names -%}
+        {%- for page in site.pages -%}
 
-          {% if page.title and page.name == page_name %}
+          {%- if page.title and page.name == page_name -%}
 
             <li class='nav-item' role='presentation'>
               <a class='nav-link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
             </li>
 
-          {% endif %}
+          {%- endif -%}
 
-        {% endfor %}
-      {% endfor %}
+        {%- endfor -%}
+      {%- endfor -%}
 
       {% if site.nav_feed == 'feeds.pub' %}
         <li class='nav-item hidden-mobile' role='presentation'>
