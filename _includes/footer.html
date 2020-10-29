@@ -29,4 +29,14 @@
     </span>
   </div>
 
+  <!-- Baidu Statistic-->
+  {% if site.baidu_statistic %}
+    {% include baidu_statistic.html %}
+  {% endif %}
+
+  <!-- cnzz Statistic-->
+  {% if site.cnzz_statistic %}
+    {% include cnzz_statistic.html %}
+  {% endif %}
+
 </footer>
