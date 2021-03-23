@@ -1,0 +1,6 @@
+<!-- usage: {% include image.html file="img.jpg" caption="Image caption" %} -->
+
+<figure>
+  <img src="{{site.url}}/{{page.img_path}}/{{ include.file }}" alt="{{ include.caption}}">  
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
