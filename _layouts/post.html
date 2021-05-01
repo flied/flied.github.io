@@ -21,7 +21,9 @@ layout: default
   {% endfor %}
 </div>
 
-<div><h3>如果你觉得本文不错，欢迎<a href="/subscription">订阅“胡涂说”博客</a>。</h3></div>
+<br />
+
+<div>欢迎<a href="/subscription">订阅“胡涂说”博客</a>；欢迎留言，请在下面评论框或直接在 <a href="https://github.com/{{ site.gitalk.owner }}/{{ site.gitalk.repo }}/issues/{{ page.gh_issue }}" target="_blank">GitHub issue</a> 评论。</div>
 
 {% if site.comments_engine == 'disqus' %}
   {% include disqus_comments.html %}
