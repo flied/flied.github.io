@@ -28,14 +28,7 @@ layout: default
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 </div>
 
-{% if site.comments_engine == 'disqus' %}
-  {% include disqus_comments.html %}
-{% elsif site.comments_engine == 'gitalk' %}
-  {% include gitalk_comments.html %}
-{% elsif site.comments_engine == 'giscus' %}
-  {% include giscus_comments.html %}
-{% else %}
-{% endif %}
+{% include comments.html %}
 
 <div class="pagination">
   {% if page.next.url %}

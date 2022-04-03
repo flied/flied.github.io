@@ -10,16 +10,7 @@ layout: default
 </div>
 
 {% if page.commentable %}
-
-  {% if site.comments_engine == 'disqus' %}
-    {% include disqus_comments.html %}
-  {% elsif site.comments_engine == 'gitalk' %}
-    {% include gitalk_comments.html %}
-  {% elsif site.comments_engine == 'giscus' %}
-    {% include giscus_comments.html %}
-  {% else %}
-  {% endif %}
-
+  {% include comments.html %}
 {% endif %}
 
 <div class="pagination">
