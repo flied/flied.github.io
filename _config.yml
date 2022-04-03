@@ -81,3 +81,7 @@ giscus:
   repo_id: ''
   category: ''
   category_id: ''
+  mapping: 'pathname'
+  input_position: 'bottom'
+  theme: 'light'
+  lang: "en"
