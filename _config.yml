@@ -62,7 +62,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 # tag_page_data:
 #   sitemap: false
 
-# can be ['disqus', 'gitalk']
+# can be ['disqus', 'gitalk', 'giscus']
 comments_engine: na
 
 # Disqus (Set to your disqus id)
@@ -75,4 +75,9 @@ gitalk:
   owner: ''
   admin: 
     - ''
-  
+
+giscus:
+  repo: ''
+  repo_id: ''
+  category: ''
+  category_id: ''

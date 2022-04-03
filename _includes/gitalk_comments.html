@@ -2,8 +2,10 @@
 <!-- https://github.com/geektutu/hexo-theme-geektutu/blob/master/layout/_widget/comments.ejs#L31 -->
 <!-- ref: https://geektutu.com/post/blog-experience-7.html -->
 
+<div>欢迎留言，请在下面评论框或直接在 <a href="https://github.com/{{ site.gitalk.owner }}/{{ site.gitalk.repo }}/issues/{{ page.gh_issue }}" target="_blank">GitHub issue</a> 评论。</div>
+
 <!-- Start gitalk -->
-<script src="{{ "/assets/js/gitalk.min.js" | relative_url }}" /></script>
+<script src="{{ '/assets/js/gitalk.min.js' | relative_url }}" ></script>
 <!-- <div id="disqus_thread"><h3>Discussion and feedback</h3></div> -->
 <div id="gitalk-container">
     <div class="gt-container text-center" style="margin-top: 50px;">
