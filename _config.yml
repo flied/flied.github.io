@@ -11,10 +11,13 @@ google_analytics: UA-30399492-1
 baidu_statistic: 6e5f92006f4eed18f39b7cb30f420d8a
 
 # Google AdSense
-google_adsense: xxxxxxxxxx
+google_adsense: 
 
 # cnzz statistic
-cnzz_statistic: xxxxxxxx
+cnzz_statistic: 
+
+# addthis
+addthis: 
 
 copyright:    'hutusi.com'
 # Author

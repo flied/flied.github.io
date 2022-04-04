@@ -41,5 +41,7 @@ layout: default
   <a href="#" class="top">Top</a>
 </div>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fa6932104ee5f3f"></script>
+{% if site.addthis %}
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis }}"></script>
+{% endif %}
