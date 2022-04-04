@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="relic">
+  <h1 class="relic-title">{{ page.title }}</h1>
+  <h2 class="relic-subtitle">{{ page.subtitle }}</h2>
+
+  <div class="relic-meta">
+    {% if page.type %}
+      <div class="relic-meta-item">
+        类型: {{ page.type }}
+      </div>
+    {% endif %}
+
+    {% if page.opendate %}
+      <div class="relic-meta-item">
+        上线日期: {{ page.opendate | date: "%Y-%m-%d" }}
+      </div>
+    {% endif %}
+
+    {% if page.closedate %}
+      <div class="relic-meta-item">
+        下线日期: {{ page.closedate | date: "%Y-%m-%d" }}
+      </div>
+    {% endif %}
+
+    {% if page.website %}
+      <div class="relic-meta-item">
+        原网址: {{ page.website }}
+      </div>
+    {% endif %}
+
+    {% if page.archive %}
+      <div class="relic-meta-item">
+        互联网档案馆存档: <a href='https://{{ page.archive }}'>{{ page.archive }}</a>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="relic-line"></div>
+
+  {{ content }}
+</div>
+
+<div class='tags'>
+  {% for tag in page.tags %}
+    <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+  {% endfor %}
+</div>
+
+<br />
+
+<div>本文采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.zh">「CC BY-SA 4.0」</a>知识共享许可协议，如果还喜欢其他文章， 
+欢迎<a href="/subscription">订阅“胡涂说”博客</a>。
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+</div>
+
+{% include comments.html %}
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
+</div>
+
+{% if site.addthis %}
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis }}"></script>
+{% endif %}
