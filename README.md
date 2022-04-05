@@ -1,4 +1,4 @@
-# Tale
+# Tale - theme for hutusi.com
 
 [![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
 

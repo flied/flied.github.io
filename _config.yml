@@ -1,8 +1,8 @@
 # Site settings
 title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+description:    "Minimal Jekyll theme for hutusi.com"
 baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            "https://hutusi.com"
 
 # Google Analytics
 google_analytics: UA-30399492-1
