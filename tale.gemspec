@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "taletype"
-  spec.version       = "0.1.11"
+  spec.version       = "0.1.12"
   spec.authors       = ["hutusi"]
   spec.email         = ["huziyong@gmail.com"]
 
-  spec.summary       = %q{TaleType(Tale redistributed) is a minimal Jekyll theme curated for storytellers.}
-  spec.homepage      = "https://github.com/hutusi/tale"
+  spec.summary       = %q{TaleType(Tale redistributed) is a minimal Jekyll theme curated for [hutusi.com](https://hutusi.com/).}
+  spec.homepage      = "https://github.com/hutusi/taletype"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
