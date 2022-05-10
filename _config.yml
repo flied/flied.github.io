@@ -26,6 +26,10 @@ author:
   url:          https://hutusi.com
   email:        huziyong@gmail.com
 
+# images CDN
+images_baseurl: '/images'
+wechat_official: ''
+
 # Build settings
 markdown:       kramdown
 include:

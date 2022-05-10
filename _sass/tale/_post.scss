@@ -103,3 +103,23 @@
     margin-bottom: $line-height-medium - half(quarter($line-height-medium));
   }
 }
+
+.extra-info {
+
+  figure {
+    display: block;
+    margin: auto;
+    
+    img {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+    
+    figcaption {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+
